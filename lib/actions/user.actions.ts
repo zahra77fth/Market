@@ -5,37 +5,26 @@ import { signIn, signOut } from '@/auth';
 
 // Sign in the user with credentials
 export async function signInWithCredentials(
-    prevState: { message?: string; success?: boolean } | undefined,
+    prevState: unknown,
     formData: FormData
 ) {
   try {
-    // Parse and validate the form data
     const user = signInFormSchema.parse({
       email: formData.get('email'),
       password: formData.get('password'),
     });
 
-    // Sign in the user with credentials
-    const result = await signIn('credentials', {
-      redirect: false, // Prevent automatic redirect
-      email: user.email,
-      password: user.password,
-    });
-
-    // Handle the result of the sign-in attempt
-    if (result?.error) {
-      return { success: false, message: result.error };
-    }
+    await signIn('credentials', user);
 
     return { success: true, message: 'Signed in successfully' };
   } catch (error) {
-    // Handle redirect errors manually
-    if (error instanceof Error && error.message.includes('NEXT_REDIRECT')) {
-      throw error; // Re-throw redirect errors to let Next.js handle them
+    // Handle specific error cases if needed
+    if (error instanceof Error) {
+      return { success: false, message: error.message };
     }
 
-    // Handle other errors
-    return { success: false, message: 'Invalid email or password' };
+    // Generic error handling
+    return { success: false, message: 'An unexpected error occurred' };
   }
 }
 
