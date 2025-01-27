@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4d4478-b1ae-4cbc-b329-9952782defd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/credentials-signin-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/product/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/use-toast.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actions/user.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ui/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/db/prisma.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/db/seed.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/cart.actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/product.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/product.actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/add-to-cart.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/product-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/product-carousel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/product-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/product-price.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-price.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/rating.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/user.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/user.actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +54,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/afagh/projects/MCI/mci-market/app",
+    "last_opened_file_path": "/Users/afagh/projects/MCI/mci-market/components/shared",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/shared" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
@@ -112,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737970209480</updated>
-      <workItem from="1737970210697" duration="11284000" />
+      <workItem from="1737970210697" duration="12205000" />
     </task>
     <servers />
   </component>
