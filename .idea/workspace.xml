@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b4d4478-b1ae-4cbc-b329-9952782defd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/product/add-to-cart.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/product/product-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/product/product-carousel.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/product/product-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/product/product-price.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-price.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/shared/product/rating.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/user.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/user.actions.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8b4d4478-b1ae-4cbc-b329-9952782defd5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737970209480</updated>
-      <workItem from="1737970210697" duration="12205000" />
+      <workItem from="1737970210697" duration="12560000" />
     </task>
     <servers />
   </component>
