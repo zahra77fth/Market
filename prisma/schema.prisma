@@ -57,13 +57,15 @@ model Account {
   createdAt DateTime @default(now()) @db.Timestamp(6)
   updatedAt DateTime @updatedAt
 
+  // create a rellationship between user and Account
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
+  // we taking two key and make them one key to be our primary key
   @@id([provider, providerAccountId])
 }
 
 model Session {
-  sessionToken String   @id
+  sessionToken String   @id // want to make it key
   userId       String   @db.Uuid
   expires      DateTime @db.Timestamp(6)
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)

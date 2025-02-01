@@ -8,13 +8,15 @@ import type { NextAuthConfig } from 'next-auth';
 export const config = {
     pages: {
         signIn: '/sign-in',
-        error: '/sign-in',
+        error: '/sign-in', //if err accured we want to be in sign in page
     },
+    // using json web token
     session: {
         strategy: 'jwt',
         maxAge: 30 * 24 * 60 * 60, // 30 days
     },
     adapter: PrismaAdapter(prisma),
+    // Array of providers
     providers: [
         CredentialsProvider({
             credentials: {
@@ -33,12 +35,12 @@ export const config = {
 
                 // Check if user exists and if the password matches
                 if (user && user.password) {
-                    const isMatch = compareSync(
+                    const isMatch = compareSync( // because we used hashSync
                         credentials.password as string,
                         user.password
                     );
 
-                    // If password is correct, return user
+                    // if password is correct, return user
                     if (isMatch) {
                         return {
                             id: user.id,
@@ -66,6 +68,6 @@ export const config = {
             return session;
         },
     },
-} satisfies NextAuthConfig;
+} satisfies NextAuthConfig; //ensures the object is compatible with nextAuth config to prevent ts errs
 
 export const { handlers, auth, signIn, signOut } = NextAuth(config);
