@@ -47,19 +47,19 @@ const ModeToggle = () => {
           checked={theme === 'system'}
           onClick={() => setTheme('system')}
         >
-          System
+          سیستم
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === 'dark'}
           onClick={() => setTheme('dark')}
         >
-          Dark
+          تاریک
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === 'light'}
           onClick={() => setTheme('light')}
         >
-          Light
+          روشن
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>

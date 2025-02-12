@@ -5,42 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b4d4478-b1ae-4cbc-b329-9952782defd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/sign-up-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/shared/header/user-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/cart/cart-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/cart/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/order/[id]/order-details-table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/order/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/order/[id]/stripe-payment-success/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/payment-method/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/payment-method/payment-method-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/place-order/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/place-order/place-order-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/product/[slug]/review-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/product/[slug]/review-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/search/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/shipping-address/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/shipping-address/shipping-address-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/main-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/orders/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/overview/charts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/overview/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/products/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/products/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/products/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/users/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/users/[id]/update-user-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/users/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/core.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/uploadthing/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/webhooks/stripe/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/main-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/orders/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/profile/profile-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/admin-search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/admin/product-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/deal-countdown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/icon-boxes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/checkout-steps.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/delete-dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/header/category-drawer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/header/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/product/add-to-cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/product/product-carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/product/rating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/alert-dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/drawer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/radio-group.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/textarea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/toast.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/toaster.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/view-all-products-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/purchase-receipt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-toast.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/cart.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/order.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actions/review.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/encrypt.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/paypal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/uploadthing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/paypal.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/next-auth.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/credentials-signin-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/credentials-signin-form.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up/sign-up-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up/sign-up-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/product/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/product/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/not-found.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auth.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/header/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/header/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/header/mode-toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/header/mode-toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/header/user-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/header/user-button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/product/product-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/product/product-images.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-images.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/shared/product/product-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-list.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/shared/product/product-price.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/shared/product/product-price.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/prisma.ts" beforeDir="false" afterPath="$PROJECT_DIR$/db/prisma.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/sample-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/db/sample-data.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/db/seed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actions/product.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/product.actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/actions/user.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/user.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/constants/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/validators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p1-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p1-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p2-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p2-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p3-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p3-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p4-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p4-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p5-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p5-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p6-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sample-products/p6-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +120,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "zahra77fth"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zahra77fth&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/zahra77fth/Market.git",
-    "accountId": "3a3a6968-6ea9-4abb-8140-2da1fef8e288"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/zahra77fth/Market.git&quot;,
+    &quot;accountId&quot;: &quot;3a3a6968-6ea9-4abb-8140-2da1fef8e288&quot;
   }
-}]]></component>
+}</component>
   <component name="GitlabMajeraCodeReviewSettings">
     <option name="popularEmojiShortcuts">
       <list />
@@ -70,28 +140,28 @@
   <component name="NamedScopeManager">
     <scope name="GitScopePro" pattern="" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2sCr4MrFwgFTz0R7mgIKNZPSfsC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/afagh/projects/MCI/mci-market/app/(auth)",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/afagh/projects/MCI/mci-market/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/afagh/projects/MCI/mci-market/prisma&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/afagh/projects/MCI/mci-market/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -103,11 +173,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/(auth)" />
+      <recent name="$PROJECT_DIR$/prisma" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/components/shared" />
       <recent name="$PROJECT_DIR$/app" />
-      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/actions" />
+      <recent name="$PROJECT_DIR$/components/shared/product" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
@@ -131,7 +201,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737970209480</updated>
-      <workItem from="1737970210697" duration="28015000" />
+      <workItem from="1737970210697" duration="56733000" />
+      <workItem from="1739369925777" duration="9684000" />
     </task>
     <servers />
   </component>

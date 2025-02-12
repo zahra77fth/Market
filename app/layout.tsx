@@ -3,8 +3,7 @@ import { Inter } from 'next/font/google';
 import '@/assets/styles/globals.css';
 import { APP_DESCRIPTION, APP_NAME, SERVER_URL } from '@/lib/constants';
 import { ThemeProvider } from 'next-themes';
-
-const inter = Inter({ subsets: ['latin'] });
+import localFont from 'next/font/local'
 
 export const metadata: Metadata = {
   title: {
@@ -15,23 +14,23 @@ export const metadata: Metadata = {
   metadataBase: new URL(SERVER_URL),
 };
 
+const vazir = localFont({ src: '../public/fonts/vazir.ttf' })
+
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang='en' suppressHydrationWarning>
-      <body className={`${inter.className} antialiased`}>
+                                       children,
+                                   }: Readonly<{ children: React.ReactNode }>) {
+    return (
+        <html lang="fa" dir="rtl" suppressHydrationWarning>
+        <body className={`${vazir.className} antialiased`}>
         <ThemeProvider
-          attribute='class'
-          defaultTheme='light'
-          enableSystem
-          disableTransitionOnChange
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
         >
-          {children}
+            {children}
         </ThemeProvider>
-      </body>
-    </html>
-  );
+        </body>
+        </html>
+    );
 }

@@ -7,17 +7,15 @@ const ProductPrice = ({
   value: number;
   className?: string;
 }) => {
-  // Ensure two decimal places
   const stringValue = value.toFixed(2);
-  // Get the int/float
   const [intValue, floatValue] = stringValue.split('.');
 
   return (
-    <p className={cn('text-2xl', className)}>
-      <span className='text-xs align-super'>IRT</span>
-      {intValue}
-      <span className='text-xs align-super'>.{floatValue}</span>
-    </p>
+      <p className={cn('text-2xl', className)}>
+        {intValue}
+        <span className='text-xs align-super'>.{floatValue}</span>
+        <span className='text-xs align-under'>irt</span>
+      </p>
   );
 };
 

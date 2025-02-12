@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: Vazir;
+  src: url("../../public/fonts/vazir.ttf") format("truetype");
+}
+
 @layer utilities {
   .wrapper {
     @apply max-w-7xl lg:mx-auto p-5 md:px-10 w-full;
@@ -96,6 +101,8 @@
 @layer base {
   * {
     @apply border-border;
+    direction: rtl;
+    @apply text-right;
   }
   body {
     @apply bg-background text-foreground;
