@@ -210,9 +210,9 @@ const SearchPage = async (props: {
             (category !== 'all' && category !== '') ||
             rating !== 'all' ||
             price !== 'all' ? (
-              <Button variant={'link'} asChild>
-                <Link href='/search'>پاک کردن</Link>
-              </Button>
+                <Link href='/search'>
+                  <Button variant={'link'}>پاک کردن</Button>
+                </Link>
             ) : null}
           </div>
           <div>
